@@ -11,7 +11,7 @@ public class HappyBirthday {
 
         String[] input = new String[2];
         String a;
-        out.print("Please enter two integers: ");
+        out.print("Enter name and year of birth: ");
         input = in.readLine().split(" ");
 
         a = String.valueOf(input[0]);
